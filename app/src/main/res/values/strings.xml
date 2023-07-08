@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login Form</string>
+    <string-array name="feedback_options">
+        <item>Happy</item>
+        <item>Normal</item>
+        <item>Sad</item>
+    </string-array>
+
+</resources>

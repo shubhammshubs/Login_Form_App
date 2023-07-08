@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GalleryActivity">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/tableLayout"
+        android:layout_height="380dp"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/imageOne"
+                android:src="@drawable/one"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                />
+
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:id="@+id/imageTwo"
+                android:scaleType="fitCenter"
+                android:src="@drawable/one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/imageThree"
+                android:layout_margin="5dp"
+                android:src="@drawable/two"
+                android:scaleType="fitCenter"
+            />
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:id="@+id/imageFour"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:src="@drawable/two"
+                android:layout_height="match_parent"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/imageFive"
+                android:layout_margin="5dp"
+                android:src="@drawable/three"
+                android:scaleType="fitCenter"
+             />
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:id="@+id/imageSix"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:src="@drawable/three"
+                android:layout_height="match_parent"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/imageSeven"
+                android:layout_margin="5dp"
+                android:src="@drawable/four"
+                android:scaleType="fitCenter"
+               />
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:id="@+id/imageEight"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:src="@drawable/four"
+                android:layout_height="match_parent"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/imageNine"
+                android:layout_margin="5dp"
+                android:src="@drawable/i1"
+                android:scaleType="fitCenter"
+            />
+
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:id="@+id/imageTen"
+                android:scaleType="fitCenter"
+                android:layout_width="0dp"
+                android:src="@drawable/i1"
+                android:layout_height="match_parent"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/Last_text"
+            android:text="Text Last Left"
+            android:layout_margin="5dp"
+            android:src="@drawable/i1"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/TextLast"
+            android:text="Text Last "
+            android:scaleType="fitCenter"
+            android:layout_width="0dp"
+            android:src="@drawable/i1"
+            android:layout_height="match_parent" />
+
+        <TableRow/>
+
+    </TableLayout>
+
+</androidx.core.widget.NestedScrollView>
+
+
+<!--<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <include-->
+<!--        layout="@layout/action_bar_title"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TableLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:id="@+id/tableLayout"-->
+<!--            android:layout_height="380dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:weightSum="2"/>-->
+
+<!--            <TableRow-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1">-->
+
+<!--                <ImageView-->
+<!--                android:id="@+id/TopLeft"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:src="@drawable/one"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@id/action_bar_title"-->
+<!--                app:layout_constraintEnd_toStartOf="@id/Topright"-->
+<!--                app:layout_constraintHorizontal_chainStyle="packed" />-->
+<!--                <TextView-->
+<!--                    android:id="@+id/TopLeftV"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="TopLeft"-->
+<!--                    android:textSize="25sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    app:layout_constraintStart_toStartOf="@id/TopLeft"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/TopLeft"-->
+<!--                    app:layout_constraintEnd_toEndOf="@id/TopLeft" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/Topright"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:src="@drawable/two"-->
+<!--                    android:scaleType="fitCenter"-->
+<!--                    app:layout_constraintStart_toEndOf="@id/TopLeft"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/action_bar_title"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent" />-->
+<!--                <TextView-->
+<!--                    android:id="@+id/TopRightV"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="TopRight"-->
+<!--                    android:textSize="25sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    app:layout_constraintStart_toStartOf="@id/Topright"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/Topright"-->
+<!--                    app:layout_constraintEnd_toEndOf="@id/Topright" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/midLeft"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:src="@drawable/three"-->
+<!--                    android:scaleType="fitCenter"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/TopLeftV"-->
+<!--                    app:layout_constraintEnd_toStartOf="@id/midright"-->
+<!--                    app:layout_constraintHorizontal_chainStyle="packed" />-->
+<!--                <TextView-->
+<!--                    android:id="@+id/MidLeftV"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="MidLeft"-->
+<!--                    android:textSize="25sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    app:layout_constraintStart_toStartOf="@id/midLeft"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/midLeft"-->
+<!--                    app:layout_constraintEnd_toEndOf="@id/midLeft" />-->
+
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/midright"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:src="@drawable/four"-->
+<!--                    android:scaleType="fitCenter"-->
+<!--                    app:layout_constraintStart_toEndOf="@id/midLeft"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/TopRightV"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent" />-->
+<!--                <TextView-->
+<!--                    android:id="@+id/MidRightV"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="MidRight"-->
+<!--                    android:textSize="25sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    app:layout_constraintStart_toStartOf="@id/midright"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/midright"-->
+<!--                    app:layout_constraintEnd_toEndOf="@id/midright" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/bottomLeft"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:src="@drawable/five"-->
+<!--                    android:scaleType="fitCenter"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/MidLeftV"-->
+<!--                    app:layout_constraintEnd_toStartOf="@id/bottomRight"-->
+<!--                    app:layout_constraintHorizontal_chainStyle="packed" />-->
+<!--                <TextView-->
+<!--                    android:id="@+id/BottomLeftV"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="BottomLeft"-->
+<!--                    android:textSize="25sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    app:layout_constraintStart_toStartOf="@id/bottomLeft"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/bottomLeft"-->
+<!--                    app:layout_constraintEnd_toEndOf="@id/bottomLeft" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/bottomRight"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:src="@drawable/six"-->
+<!--                    android:scaleType="fitCenter"-->
+<!--                    app:layout_constraintStart_toEndOf="@id/bottomLeft"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/MidRightV"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent" />-->
+<!--                <TextView-->
+<!--                    android:id="@+id/bottomRightV"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="BottomRight"-->
+<!--                    android:textSize="25sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    app:layout_constraintStart_toStartOf="@id/bottomRight"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/bottomRight"-->
+<!--                    app:layout_constraintEnd_toEndOf="@id/bottomRight" />-->
+<!--            </TableRow>-->
+<!--</androidx.core.widget.NestedScrollView>-->
+
+
+
+
+
