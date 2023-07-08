@@ -195,18 +195,12 @@ public class WelcomeActivity extends AppCompatActivity {
 
             case R.id.video:
                 if (item.getItemId() == R.id.video) {
-                    VideoView videoView = findViewById(R.id.videoView);
-                    String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.video1; // Replace with your video resource
-                    videoView.setVideoURI(Uri.parse(videoPath));
-                    MediaController mediaController = new MediaController(this);
-                    mediaController.setAnchorView(videoView);
-                    videoView.setMediaController(mediaController);
-                    videoView.start();
+                    Intent intent = new Intent(WelcomeActivity.this, Video.class);
+                    startActivity(intent);
 
+                    Toast.makeText(WelcomeActivity.this, "Video", Toast.LENGTH_SHORT).show();
                     return true;
                 }
-                Toast.makeText(WelcomeActivity.this, "Videos", Toast.LENGTH_SHORT).show();
-                return true;
 
 
             case R.id.Feedback:
